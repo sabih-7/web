@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web for Practices" />
+    <meta property="og:title" content="Web - For Practices" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="https://sabihtest.bilalaslam.net/" />
+    <title>Web</title>
+    <!-- Favicons -->
+    <link rel="icon" href="assets/images/favicon-sm.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/images/favicon-md.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/images/favicon-lg.png"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav class="nav collapsible">
+          <a href="/" class="nav__brand">
+            <img src="assets/images/logo.jpg" alt="site logo" />
+          </a>
+          <span class="icon__hidden">
+            <i class="far fa-arrow-alt-circle-down icon__nav"></i
+          ></span>
+          <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">About Us</a></li>
+            <li class="nav__item"><a href="#">Portfolio</a></li>
+            <li class="nav__item"><a href="#">Blog</a></li>
+            <li class="nav__item"><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="block block--hero hero">
+      <div class="container grid grid--cols-2">
+        <header class="block__header hero__content" data-aos="fade-right">
+          <h1 class="block__heading">The Spirit of Digital Agency</h1>
+          <p class="hero__tagline">
+            Video provides a powerful way to help you prove your point. When you
+            click Online Video, you can paste in the embed code for the video
+            you want to add.
+          </p>
+          <button class="btn btn--red">Get in Touch</button>
+        </header>
+        <picture data-aos="fade-left">
+          <source
+            type="image/webp"
+            srcset="assets/images/hero.webp 1x, assets/images/hero@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="assets/images/hero.jpg 1x, assets/images/hero@2x.jpg 2x"
+          />
+          <img src="assets/images/hero.jpg" alt="hero image" />
+        </picture>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="block block--services" data-aos="fade-up">
+      <div class="container grid grid--cols-3">
+        <header class="block__header block--services__content">
+          <h2 class="block__heading">
+            Anything you need, we've got you covered
+          </h2>
+          <a href="#" class="btn btn--red">Get in Touch</a>
+        </header>
+        <div class="card">
+          <i class="far fa-envelope icon"></i>
+          <h3 class="card__heading">Web &amp; Graphic Design</h3>
+          <p class="card__title">
+            Video provides a powerful way to help you prove your point. When you
+            click Online Video, you can paste in the embed code for the video
+            you want to add. You can also type a keyword to search online for
+            the video that best fits your document.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fas fa-laptop-code icon"></i>
+          <h3 class="card__heading">Web &amp; App Development</h3>
+          <p class="card__title">
+            Video provides a powerful way to help you prove your point. When you
+            click Online Video, you can paste in the embed code for the video
+            you want to add. You can also type a keyword to search online for
+            the video that best fits your document. To make your document look
+            professionally produced, Word provides header, footer, cover page,
+            and text box designs that complement each other.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="block block--about-us">
+      <div class="container grid grid--cols-2">
+        <picture data-aos="flip-right">
+          <source
+            type="image/webp"
+            srcset="
+              assets/images/aboutus.webp    1x,
+              assets/images/aboutus@2x.webp 2x
+            "
+          />
+          <source
+            type="image/jpg"
+            srcset="
+              assets/images/aboutus.jpg    1x,
+              assets/images/aboutus@2x.jpg 2x
+            "
+          />
+          <img src="assets/images/aboutus.jpg" alt="about us picture" />
+        </picture>
+        <header
+          class="block__header block--about-us__content"
+          data-aos="flip-left"
+        >
+          <span class="block__title">our company</span>
+          <h2>Some Fine Words About US</h2>
+          <p>
+            Video provides a powerful way to help you prove your point. When you
+            click Online Video, you can paste in the embed code for the video
+            you want to add.
+          </p>
+        </header>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="block block--portfolio">
+      <div class="container">
+        <header class="block__header block--portfolio__content">
+          <h2>See some of our Creative work.</h2>
+        </header>
+        <div
+          class="grid grid--cols-3 block--portfolio__gallery"
+          data-aos="zoom-in"
+        >
+          <img
+            src="https://source.unsplash.com/collection/190727/800x600?1"
+            alt="pic one"
+          />
+          <img
+            src="https://source.unsplash.com/collection/190727/800x600?2"
+            alt="pic two"
+          />
+          <img
+            src="https://source.unsplash.com/collection/190727/800x600?3"
+            alt="pic three"
+          />
+          <img
+            src="https://source.unsplash.com/collection/190727/800x600?4"
+            alt="pic four"
+          />
+          <img
+            src="https://source.unsplash.com/collection/190727/800x600?5"
+            alt="pic five"
+          />
+          <img
+            src="https://source.unsplash.com/collection/190727/800x600?6"
+            alt="pic six"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="container block block--blog" data-aos="zoom-out">
+      <header class="block__header block--blog__content">
+        <span class="block__title">blog stories</span>
+        <h2 class="block__heading">Check Our News</h2>
+      </header>
+      <div class="grid grid--cols-3">
+        <div class="card">
+          <h3 class="card__heading">New Adventure</h3>
+          <span>9 september 2021</span>
+          <p class="card__content">
+            Video provides a powerful way to help you prove your point. When you
+            click Online Video.
+          </p>
+          <i class="fas fa-long-arrow-alt-right icon--accent"></i>
+        </div>
+        <div class="card">
+          <h3 class="card__heading">New Adventure</h3>
+          <span>9 september 2021</span>
+          <p class="card__content">
+            Video provides a powerful way to help you prove your point. When you
+            click Online Video, you can paste in the embed code for the video
+            you want to add. You can also type a keyword to search online for
+            the video that best fits your document. To make your document look
+            professionally produced, Word provides header, footer, cover page,
+            and text box designs that complement each other.
+          </p>
+          <i class="fas fa-long-arrow-alt-right icon--accent"></i>
+        </div>
+        <div class="card">
+          <h3 class="card__heading">New Adventure</h3>
+          <span>9 september 2021</span>
+          <p class="card__content">
+            Video provides a powerful way to help you prove your point. When you
+            click Online Video, you can paste in the embed code for the video
+            you want to add. You can also type a keyword to search online for
+            the video that best fits your document.
+          </p>
+          <i class="fas fa-long-arrow-alt-right icon--accent"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact US -->
+    <section class="block">
+      <div class="container">
+        <header class="block__header block--section__content">
+          <span class="block__title">contact us</span>
+          <h2 class="block__heading">Get in Touch</h2>
+        </header>
+        <form action="#" method="POST" class="contact-form">
+          <div class="input-group">
+            <input
+              type="email"
+              class="input"
+              placeholder="Your email"
+              minlength="5"
+              maxlength="255"
+              required
+            />
+            <input
+              type="text"
+              class="input"
+              placeholder="Subject"
+              maxlength="255"
+              required
+            />
+          </div>
+          <textarea class="input-textarea" rows="10" required>
+Message here</textarea
+          >
+          <button type="submit" class="btn btn--red input-submit">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="block block--footer footer">
+      <div class="container">
+        <span>DOOB</span>
+        <h2 class="block__heading">creativity above</h2>
+        <ul class="list list--inline">
+          <li class="list__item"><a href="#">Home</a></li>
+          <li class="list__item"><a href="#">About Us</a></li>
+          <li class="list__item"><a href="#">Portfolio</a></li>
+          <li class="list__item"><a href="#">Blog</a></li>
+          <li class="list__item"><a href="#">Contact Us</a></li>
+        </ul>
+        <p class="footer__copyright">
+          &copy; 2021 &dash; Doob, All Right Reserved
+        </p>
+        <a href="#" class="icon__link"
+          ><i class="fab fa-facebook-f icon__footer"></i
+        ></a>
+        <a href="#" class="icon__link"
+          ><i class="fab fa-twitter icon__footer"></i
+        ></a>
+        <a href="#" class="icon__link"
+          ><i class="fab fa-linkedin-in icon__footer"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
