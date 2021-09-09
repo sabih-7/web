@@ -359,6 +359,9 @@ a {
   transition: box-shadow 0.15s;
   width: 100%;
 }
+.input{
+margin-bottom: 2rem;
+}
 
 .input-textarea {
   margin-bottom: 2rem;
